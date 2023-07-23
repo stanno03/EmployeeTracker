@@ -46,4 +46,4 @@ Employee Tracker utilises - Inquirer.js, dotenv, mysql2
  
   A demonstration can be found here - https://drive.google.com/file/d/1DrLqfVPYZrYwwComHGrL4HTlhvRLNlWu/view
 
-  ![Alt text]()
+  ![Alt text](./public/employeeTracker.PNG)
