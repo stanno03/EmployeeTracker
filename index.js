@@ -2,15 +2,23 @@
 
 // import required packages
 const inquirer = require('inquirer');
-const DB = require('./lib/db_connection');
-const helper = require('./lib/helper');
-const start = require('./lib/start');
+const env = require('dotenv').config();
+
+const mysql2 = require('mysql2');
+const { employeeTracker }  = require('./lib/start');
+
+const db = mysql2.createConnection({
+  host: 'localhost',
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME
+});
+
 
 // run the application
-async function main (){
+function main (){
 
-  DB.databaseConnect();
-  await start();
+  employeeTracker();
 
 }
 
