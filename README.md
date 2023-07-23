@@ -12,7 +12,8 @@
   - [Dependancies](#dependancies)
   - [To Do](#todo) 
   - [Contribution](#contribution)
-  - [Questions](#questions) 
+  - [Questions](#questions)
+  - [Demo](#demo) 
 
   ## Description
 
@@ -20,15 +21,11 @@
 
   ## Installation
 
-  use the command 'npm i && npm start' in the VS Code terminal'
+  Use the command 'npm i && npm start' in the VS Code terminal'
 
   ## How to use
 
-  follow the prompts provided by the command line to carry out functions
-
-  ## Credits
-
-  
+  Follow the prompts provided by the command line to carry out functions
 
   ## License: MIT
 The project is covered under the MIT license 
@@ -45,6 +42,8 @@ Employee Tracker utilises - Inquirer.js, dotenv, mysql2
   For any questions about the project please feel free to contact emailing [d.stanton029@gmail.com](mailto:d.stanton029@gmail.com)
   or you can find a link to my Github here [stanno03](https://github.com/stanno03)
 
-  Demo:
+ ## Demo:
+ 
   A demonstration can be found here - https://drive.google.com/file/d/1DrLqfVPYZrYwwComHGrL4HTlhvRLNlWu/view
 
+  ![Alt text]()
