@@ -1,19 +1,19 @@
 -- seed the tables
-INSERT INTO departments (name)
+INSERT INTO department (name)
 VALUES
 ('Sales'),
 ('Marketing'),
 ('Management');
 
 
-INSERT INTO roles (title, salary, department_id)
+INSERT INTO role (title, salary, department_id)
 VALUES
 ('Salesperson', 70000, 001),
 ('Social Media Marketer', 75000, 002),
 ('Service Desk Teamlead', 75000, 003);
 
 
-INSERT INTO employees (first_name, last_name, role_id, manager_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
 ('Harry', 'Potter', 003, 001),
 ('Hermoine', 'Granger', 002, NULL),
